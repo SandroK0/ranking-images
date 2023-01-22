@@ -1,0 +1,80 @@
+body{
+    width: 100%;
+}
+@media only screen and (max-width: 500px){
+    body{
+        width: fit-content;
+    }
+}
+
+.border{
+    border: 3px solid black;
+}
+.container{
+    
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    height: 500px;
+}
+.frame{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    margin: 50px;
+    box-sizing: border-box;
+
+}
+.flex_row{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+header{
+    right: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    color: aliceblue;
+    font-size: 90px;
+    display: block;
+    background-size: 100%;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+    height: fit-content;
+    margin-left: 0;
+    margin-right: 0;
+
+    background-color: brown;
+}
+.image{
+    height: 400px;
+    width: 400px;
+}
+.elo-container{
+    display: flex;
+    margin: auto;
+    width: 1200px;
+    height: fit-content;
+    font-size: 30px;
+}
+.elo-container label{
+    margin: 200px;
+}
+#leaderboard{
+    margin: auto;
+    width: 1200px;
+    height: fit-content;
+}
+.center{
+    text-align: center;
+}
+#root{
+    display: flex;
+    flex-direction: row;
+}
