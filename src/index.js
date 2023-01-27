@@ -95,17 +95,17 @@ function display(lenght) {
     let id_1;
     let id_2;
     while(true){
-      id_1 = String(Math.floor(Math.random() * lenght));
-      id_2 = String(Math.floor(Math.random() * lenght));
+      id_1 = String(Math.round(Math.random() * lenght));
+      id_2 = String(Math.round(Math.random() * lenght));
       if (id_1 !== id_2){
-        break
+        return [id_1, id_2]
       }
     }
       
     
       
     
-    return [id_1, id_2]
+    
   
     
   }
